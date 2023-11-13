@@ -31,3 +31,58 @@
     margin: 10px 100px;
     width: 30%;
 }
+.cards-section{
+    width: auto;
+    padding: 5px;
+    display: flex;
+}
+.card-container{
+    /* border: 1px solid black; */
+    width: 15vw;
+    margin: 0px auto;
+    height: 550px;
+}
+.card-img{
+    height: 230px;
+    display: flex;
+    margin: 3px auto;
+    width: 200px;
+}
+.card-about{
+    font-family: "Poppins", sans-serif;
+    font-size: 17px;
+    margin: 5px 10px;
+    position: relative;
+    top: -35px;
+}
+.card-from{
+    font-size: 20px;
+    margin: 5px 10px;
+    position: relative;
+    top: -35px;
+}
+.card-s{
+    padding: 3px;
+    width: 40%;
+    font-family: "Poppins", sans-serif;
+    border-radius: 4px;
+    background-color: azure;
+    position: relative;
+    top: -230px;
+    left: 20px;
+    text-align: center;
+}
+.card-top{
+    position: relative;
+    top: -35px;
+}
+.card-top .rating_star{
+    position: relative;
+    width: 20px;
+    margin: 5px 20px;
+    cursor: pointer;
+    top: 8px;
+}
+.card-top .rating{
+    margin: 0 0px -15px;
+}
